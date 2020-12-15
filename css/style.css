@@ -1,11 +1,11 @@
 .root {
-    background-image: url("img/Background_top.png"); 
+    background-image: url("../img/Background_top.png"); 
     background: top repeat-x;
   
   }
 
 .root-innner {
-    background-image: url("img/Background_bottom.png");
+    background-image: url("../img/Background_bottom.png");
     min-height: 500px;
     background: top repeat-x;
 }
