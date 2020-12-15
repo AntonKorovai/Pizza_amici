@@ -1,0 +1,25 @@
+.root {
+    background-image: url("img/Background_top.png"); 
+    background: top repeat-x;
+  
+  }
+
+.root-innner {
+    background-image: url("img/Background_bottom.png");
+    min-height: 500px;
+    background: top repeat-x;
+}
+
+.header {
+
+  min-height: 300px;
+  border: solid 1px red;
+}
+.main {
+  min-height: 300px;
+  border: solid 1px red;
+}
+.footer {
+  min-height: 300px;
+  border:  solid 1px red;
+}
