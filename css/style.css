@@ -234,7 +234,7 @@ header div p.p2 {
 
 
 
-header form input.password{
+header nav form input.password{
   position: absolute;
   width: 70px;
   height: 20px;
@@ -246,7 +246,7 @@ header form input.password{
   background-color: rgb(28, 95, 19);
 }
 
-header form input.email{
+header nav  form input.email{
   position: absolute;
   width: 115px;
   height: 20px;
@@ -258,7 +258,7 @@ header form input.email{
   background-color: rgb(28, 95, 19);
 }
 
-header form input :not(:last-child)::after {
+header nav form input:not(:last-child)::after {
   content: "|";
   text-shadow: 1.5px 2.6px 0px rgba(0, 0, 0, 0.12);
   color: white;
