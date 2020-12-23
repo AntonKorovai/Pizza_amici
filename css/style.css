@@ -54,7 +54,8 @@ header div div p.p1 {
   margin: 0px;
   color: white;
   font-weight: bold;
-  font-size: 27px;
+  font-size: 30px;
+  font-family: 'Patua One', sans-serif;
 }
 
 header {
@@ -70,10 +71,13 @@ header div.main_menu {
 
 header div.main_menu div.container_nav {
   margin: 0px auto;
+  width: 1200px;
 }
 
 header div.main_menu div.container_nav nav ul{
-  padding-top: 12px;
+  padding-top: 13px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 header div.main_menu div.container_nav nav ul li {
@@ -84,18 +88,20 @@ header div.main_menu div.container_nav nav ul li:not(:last-child)::after {
   content: "|";
   text-shadow: 1px 3px 0px rgba(0, 0, 0, 0.12);
   color: white;
+  font-size: 25px;
 }
 
 
 header div.main_menu div.container_nav nav ul li a{
   display: inline-block;
-  padding: 8px 5px;
+  padding: 3px 5px;
   text-decoration: none;
   color: white;
   font-weight: bolder;
-  font-size: 16px;
+  font-size: 25px;
   text-shadow: 1.5px 2.6px 0px rgba(0, 0, 0, 0.12);  
   margin-right: 4px;
+  font-family: 'Acme', sans-serif;
 }
 
 header div.main_menu div.container_nav nav ul li a:hover {
@@ -109,7 +115,7 @@ background-image: url("../img/Flag.png");
 position: absolute;
 width: 72px;
 height: 79px;
-left: 764px;
+left: 940px;
 top:186px;
 right: 365px;
 bottom:680px;
@@ -119,22 +125,24 @@ header div.main_menu div.container_nav div a.p2 {
   color: white;
   display: block;
   text-align: center;
-  font-size: 11px;
-  font-weight: bold;
-  line-height: 1.7em;
+  font-size: 20px;
+  line-height: 1em;
   text-shadow: 0px 2px 0px rgba(5, 3, 5, 0.24);
   text-decoration: none;
-  margin-top: 20px;
-  margin-left: 8px;
+  margin-top: 18px;
+  margin-left: 12px;
+  font-family: "league-gothic", sans-serif;
+  width: 55px;
+  height: 50px;
 }
 
 
 
 header div.main_menu div.container_nav form input.password{
   position: absolute;
-  width: 70px;
+  width: 120px;
   height: 28px;
-  left: 900px;
+  left: 1190px;
   top: 212px;
   right: 200px;
   bottom: 700px;
@@ -142,14 +150,18 @@ header div.main_menu div.container_nav form input.password{
   background-color: rgb(22, 75, 15);
   outline: none;
   border: none;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  font-size: 22px;
   
 }
 
 header div.main_menu div.container_nav form input.email{
   position: absolute;
-  width: 115px;
+  width: 90px;
   height: 28px;
-  left: 990px;
+  left: 1075px;
   top: 212px;
   right: 200px;
   bottom: 700px;
@@ -157,6 +169,14 @@ header div.main_menu div.container_nav form input.email{
   background-color: rgb(22, 75, 15);
   outline: none;
   border: none;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  font-size: 23px;
+}
+
+header div.main_menu div.container_nav form input::-webkit-input-placeholder{
+color: white;
 }
 
 header div.main_menu div.container_nav form input:hover{
@@ -166,8 +186,8 @@ cursor: pointer;
 
 header div.container_socials {
   position: absolute;
-  left: 900px;
-  top: 140px;
+  left: 1130px;
+  top: 130px;
   
   
 }
@@ -179,7 +199,6 @@ header div.container_socials ul {
 header div.container_socials ul li.li_sc {
 display: inline-block;
 background-image: url("../img/Border.png");
-
 background-repeat: no-repeat;
 width: 36px;
 height: 36px;
@@ -234,7 +253,7 @@ header div.main_menu div.container_nav div.ch {
   width: 1px;
   height: 20px;
   position: absolute;
-  left: 978px;
+  left: 1173px;
   top: 217px;
   box-shadow: 1px 2px 0px rgba(5, 3, 5, 0.24);
 }
