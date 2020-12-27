@@ -1,10 +1,9 @@
 html body {
   margin: 0px;
-
 }
 
 .root {
-  background-image: url("../img/Background_top.png");
+  background-image: url('../img/Background_top.png');
   background-repeat: repeat-x;
   background-position: top;
   z-index: 1;
@@ -18,109 +17,151 @@ html body {
   z-index: 1;
 }
 
-  header a.logo_pig{
-  background-image: url("../img/Pig.png");
+.contaiener {
+  position: relative;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+header .contaiener.top {
+  height: 180px;
+}
+
+header a.logo_pig {
+  background-image: url('../img/Pig.png');
   background-repeat: no-repeat;
   width: 155px;
   height: 90px;
   position: absolute;
-  left: 550px;
-  top: 55px;
-  right: 265px;
-  bottom: 665px;
+  top: 10px;
+  left: 400px;
 }
 
- header a.logo_brand {
-  background-image: url("../img/Pizza_Amici.png");
+header a.logo_brand {
+  background-image: url('../img/Pizza_Amici.png');
   background-repeat: no-repeat;
   width: 365px;
   height: 55px;
   position: absolute;
-  left: 150px;
-  top: 70px;
-  right: 690px;
-  bottom: 665px;
+  left: 10px;
+  top: 10px;
 }
 
 header p.p1 {
   position: absolute;
-  width: 555px;
-  height: 25px;
-  left: 150px;
-  top: 150px;
-  right: 500px;
-  bottom: 600px;
-  margin: 0px;
+  top: 100px;
+  left: 10px;
   color: white;
   font-weight: bold;
   font-size: 30px;
   font-family: 'Patua One', sans-serif;
 }
 
-header {
-  padding-top: 180px;
+header ul.socials {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header ul.socials li {
+  display: block;
+  background-image: url('../img/Border.png');
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  padding: 3px 0 0 4px;
+  box-sizing: border-box;
+}
+
+header ul.socials li a {
+  display: block;
+  width: 24px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 0px;
+  background-color: #1c5f13;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header ul.socials li a.fb {
+  background-image: url('../img/Facebook icon.png');
+}
+
+header ul.socials li a.tw {
+  background-image: url('../img/Twitter icon.png');
+}
+
+header ul.socials li a.rss {
+  background-image: url('../img/RSS icon.png');
+}
+header ul.socials li a.ml {
+  background-image: url('../img/Mail icon.png');
 }
 
 header .main_menu {
-  background-image: url("../img/Top_Bar.png");
-  background-repeat:repeat-x;
+  background-image: url('../img/Top_Bar.png');
+  background-repeat: repeat-x;
   list-style-type: none;
-  height: 64px; 
+  height: 64px;
 }
 
-header .container_nav {
-  margin: 0px auto;
-  width: 1200px;
+header .main_menu .contaiener {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
-header nav ul{
-  padding-top: 13px;
-  padding-left: 0px;
-  padding-right: 0px;
+header .main_menu nav ul {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  margin: 0;
+  padding: 0;
 }
 
-header nav li {
-  display: inline;
+header .main_menu nav ul li {
+  display: block;
 }
 
-header nav li:not(:last-child)::after {
-  content: "|";
+header .main_menu nav ul li:not(:last-child)::after {
+  content: '|';
+  font-size: 25px;
   text-shadow: 1px 3px 0px rgba(0, 0, 0, 0.12);
   color: white;
-  font-size: 25px;
 }
 
-
-header nav a{
+header .main_menu nav ul li a {
   display: inline-block;
   padding: 3px 5px;
+  margin: 0 4px;
   text-decoration: none;
   color: white;
   font-weight: bolder;
   font-size: 25px;
-  text-shadow: 1.5px 2.6px 0px rgba(0, 0, 0, 0.12);  
-  margin-right: 4px;
+  text-shadow: 1.5px 2.6px 0px rgba(0, 0, 0, 0.12);
   font-family: 'Acme', sans-serif;
 }
 
-header div.main_menu div.container_nav nav ul li a:hover {
-background-color: rgb(28, 95, 19);
-border-radius: 5px;
-text-decoration: none;
+header .main_menu nav ul li a:hover {
+  background-color: rgb(28, 95, 19);
+  text-decoration: none;
 }
 
-header .red_flag{
-background-image: url("../img/Flag.png");
-position: absolute;
-width: 72px;
-height: 79px;
-left: 940px;
-top:186px;
-right: 365px;
-bottom:680px;
+header .main_menu .red_flag {
+  position: absolute;
+  top: -10px;
+  left: 700px;
+  width: 72px;
+  height: 79px;
+  background-image: url('../img/Flag.png');
 }
 
-header a.p2 {
+header .main_menu .red_flag a {
   color: white;
   display: block;
   text-align: center;
@@ -130,127 +171,45 @@ header a.p2 {
   text-decoration: none;
   margin-top: 18px;
   margin-left: 12px;
-  font-family: "league-gothic", sans-serif;
+  font-family: 'league-gothic', sans-serif;
   width: 55px;
   height: 50px;
 }
 
-header input.password{
-  position: absolute;
+header form {
+  display: flex;
+  align-items: center;
+}
+
+header form input {
   width: 120px;
   height: 28px;
-  left: 1190px;
-  top: 212px;
-  right: 200px;
-  bottom: 700px;
-  border-radius: 5px;
-  background-color: rgb(22, 75, 15);
-  outline: none;
+  margin-left: 5px;
   border: none;
-  font-weight: bold;
-  text-align: left;
+  border-radius: 5px;
+  outline: none;
+  background-color: #164b0f;
   font-family: 'Acme', sans-serif;
+  font-weight: bold;
   font-size: 22px;
   color: white;
-  
 }
 
-header input.email{
-  position: absolute;
-  width: 90px;
-  height: 28px;
-  left: 1075px;
-  top: 212px;
-  right: 200px;
-  bottom: 700px;
-  border-radius: 5px;
-  background-color: rgb(22, 75, 15);
-  outline: none;
-  border: none;
-  font-weight: bold;
+header form input:hover {
+  background-color: rgb(24, 97, 14);
+  cursor: pointer;
   text-align: left;
-  font-family: 'Acme', sans-serif;
-  font-size: 23px;
   color: white;
 }
 
-header form input::-webkit-input-placeholder{
-color: white;
+header form input::-webkit-input-placeholder {
+  color: white;
 }
 
-header form input:hover{
-background-color: rgb(24, 97, 14);
-cursor: pointer;
-text-align: left;
-color: white;
-}
-
-header .container_socials {
-  position: absolute;
-  left: 1130px;
-  top: 130px;
-}
-
-header .container_socials ul {
-  display: flex
-}
-
-header div.container_socials li {
-display: inline-block;
-background-image: url("../img/Border.png");
-background-repeat: no-repeat;
-width: 36px;
-height: 36px;
-list-style-type: none;
-}
-
-header a.social {
-  
-  background-color: rgb(28, 95, 19);
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  display: inline-block;
-  text-align: center;
-  margin: 0px;
-}
-
-header a.fb {
-  background-image: url("../img/Facebook icon.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-left: 3px;
-  margin-top: 2px;
-}
-
-header a.tw {
-  background-image: url("../img/Twitter icon.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-left: 3px;
-  margin-top: 2px;
-}
-
-header a.rss {
-  background-image: url("../img/RSS icon.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-left: 3px;
-  margin-top: 2px;
-}
-header a.ml {
-  background-image: url("../img/Mail icon.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-left: 3px;
-  margin-top: 2px;
-}
 header .ch {
-  background-color: white;
   width: 1px;
   height: 20px;
-  position: absolute;
-  left: 1179px;
-  top: 217px;
+  margin-left: 5px;
+  background-color: white;
   box-shadow: 1px 2px 0px rgba(5, 3, 5, 0.24);
 }
