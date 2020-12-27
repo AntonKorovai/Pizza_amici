@@ -3,7 +3,6 @@ html body {
 
 }
 
-
 .root {
   background-image: url("../img/Background_top.png");
   background-repeat: repeat-x;
@@ -19,7 +18,7 @@ html body {
   z-index: 1;
 }
 
-  header div div a.logo_pig{
+  header a.logo_pig{
   background-image: url("../img/Pig.png");
   background-repeat: no-repeat;
   width: 155px;
@@ -31,7 +30,7 @@ html body {
   bottom: 665px;
 }
 
- header div div a.logo_brand {
+ header a.logo_brand {
   background-image: url("../img/Pizza_Amici.png");
   background-repeat: no-repeat;
   width: 365px;
@@ -43,7 +42,7 @@ html body {
   bottom: 665px;
 }
 
-header div div p.p1 {
+header p.p1 {
   position: absolute;
   width: 555px;
   height: 25px;
@@ -62,29 +61,29 @@ header {
   padding-top: 180px;
 }
 
-header div.main_menu {
+header .main_menu {
   background-image: url("../img/Top_Bar.png");
   background-repeat:repeat-x;
   list-style-type: none;
   height: 64px; 
 }
 
-header div.main_menu div.container_nav {
+header .container_nav {
   margin: 0px auto;
   width: 1200px;
 }
 
-header div.main_menu div.container_nav nav ul{
+header nav ul{
   padding-top: 13px;
   padding-left: 0px;
   padding-right: 0px;
 }
 
-header div.main_menu div.container_nav nav ul li {
+header nav li {
   display: inline;
 }
 
-header div.main_menu div.container_nav nav ul li:not(:last-child)::after {
+header nav li:not(:last-child)::after {
   content: "|";
   text-shadow: 1px 3px 0px rgba(0, 0, 0, 0.12);
   color: white;
@@ -92,7 +91,7 @@ header div.main_menu div.container_nav nav ul li:not(:last-child)::after {
 }
 
 
-header div.main_menu div.container_nav nav ul li a{
+header nav a{
   display: inline-block;
   padding: 3px 5px;
   text-decoration: none;
@@ -110,7 +109,7 @@ border-radius: 5px;
 text-decoration: none;
 }
 
-header div.main_menu div.container_nav div.red_flag{
+header .red_flag{
 background-image: url("../img/Flag.png");
 position: absolute;
 width: 72px;
@@ -121,7 +120,7 @@ right: 365px;
 bottom:680px;
 }
 
-header div.main_menu div.container_nav div a.p2 {
+header a.p2 {
   color: white;
   display: block;
   text-align: center;
@@ -136,9 +135,7 @@ header div.main_menu div.container_nav div a.p2 {
   height: 50px;
 }
 
-
-
-header div.main_menu div.container_nav form input.password{
+header input.password{
   position: absolute;
   width: 120px;
   height: 28px;
@@ -151,13 +148,14 @@ header div.main_menu div.container_nav form input.password{
   outline: none;
   border: none;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   font-family: 'Acme', sans-serif;
   font-size: 22px;
+  color: white;
   
 }
 
-header div.main_menu div.container_nav form input.email{
+header input.email{
   position: absolute;
   width: 90px;
   height: 28px;
@@ -170,44 +168,43 @@ header div.main_menu div.container_nav form input.email{
   outline: none;
   border: none;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   font-family: 'Acme', sans-serif;
   font-size: 23px;
+  color: white;
 }
 
-header div.main_menu div.container_nav form input::-webkit-input-placeholder{
+header form input::-webkit-input-placeholder{
 color: white;
 }
 
-header div.main_menu div.container_nav form input:hover{
+header form input:hover{
 background-color: rgb(24, 97, 14);
 cursor: pointer;
+text-align: left;
+color: white;
 }
 
-header div.container_socials {
+header .container_socials {
   position: absolute;
   left: 1130px;
   top: 130px;
-  
-  
 }
 
-header div.container_socials ul {
+header .container_socials ul {
   display: flex
 }
 
-header div.container_socials ul li.li_sc {
+header div.container_socials li {
 display: inline-block;
 background-image: url("../img/Border.png");
 background-repeat: no-repeat;
 width: 36px;
 height: 36px;
 list-style-type: none;
-
-
 }
 
-header div.container_socials ul li.li_sc a.social {
+header a.social {
   
   background-color: rgb(28, 95, 19);
   width: 26px;
@@ -218,7 +215,7 @@ header div.container_socials ul li.li_sc a.social {
   margin: 0px;
 }
 
-header div.container_socials ul li.li_sc a.fb {
+header a.fb {
   background-image: url("../img/Facebook icon.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -226,7 +223,7 @@ header div.container_socials ul li.li_sc a.fb {
   margin-top: 2px;
 }
 
-header div.container_socials ul li.li_sc a.tw {
+header a.tw {
   background-image: url("../img/Twitter icon.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -234,26 +231,26 @@ header div.container_socials ul li.li_sc a.tw {
   margin-top: 2px;
 }
 
-header div.container_socials ul li.li_sc a.rss {
+header a.rss {
   background-image: url("../img/RSS icon.png");
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 3px;
   margin-top: 2px;
 }
-header div.container_socials ul li.li_sc a.ml {
+header a.ml {
   background-image: url("../img/Mail icon.png");
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 3px;
   margin-top: 2px;
 }
-header div.main_menu div.container_nav div.ch {
+header .ch {
   background-color: white;
   width: 1px;
   height: 20px;
   position: absolute;
-  left: 1173px;
+  left: 1179px;
   top: 217px;
   box-shadow: 1px 2px 0px rgba(5, 3, 5, 0.24);
 }
