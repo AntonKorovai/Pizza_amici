@@ -1,0 +1,23 @@
+{
+  "name": "pizza_amici",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "ws --spa index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonKorovai/Pizza_amici.git"
+  },
+  "author": "Anton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonKorovai/Pizza_amici/issues"
+  },
+  "homepage": "https://github.com/AntonKorovai/Pizza_amici#readme",
+  "devDependencies": {
+    "local-web-server": "^4.2.1"
+  }
+}
