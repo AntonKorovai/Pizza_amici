@@ -11,7 +11,7 @@ html body {
 
 .root-inner {
   background-image: url('../img/Background_bottom.png');
-  min-height: 1200px;
+  min-height: 1800px;
   background-repeat: repeat-x;
   background-position: bottom;
   z-index: 1;
@@ -24,7 +24,7 @@ html body {
 }
 
 header .contaiener.top {
-  height: 180px;
+  height: 195px;
 }
 
 header a.logo_pig {
@@ -33,7 +33,7 @@ header a.logo_pig {
   width: 155px;
   height: 90px;
   position: absolute;
-  top: 10px;
+  top: 45px;
   left: 400px;
 }
 
@@ -44,13 +44,14 @@ header a.logo_brand {
   height: 55px;
   position: absolute;
   left: 10px;
-  top: 10px;
+  top: 73px;
 }
 
 header p.p1 {
   position: absolute;
-  top: 100px;
+  top: 144px;
   left: 10px;
+  margin: 0;
   color: white;
   font-weight: bold;
   font-size: 30px;
@@ -141,6 +142,7 @@ header .main_menu nav ul li a {
   margin: 0 4px;
   text-decoration: none;
   color: white;
+  border-radius: 5px;
   font-weight: bolder;
   font-size: 25px;
   text-shadow: 1.5px 2.6px 0px rgba(0, 0, 0, 0.12);
@@ -212,4 +214,126 @@ header .ch {
   margin-left: 5px;
   background-color: white;
   box-shadow: 1px 2px 0px rgba(5, 3, 5, 0.24);
+}
+
+main {
+  width: 1100px;
+  margin: 0 auto;
+  
+}
+
+main .shield_slide {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+main .shield {
+  background-image: url("../img/Shield.png");
+  background-repeat: no-repeat;
+  height: 275px;
+  width: 295px;
+}
+main .border_shield p {
+  text-align: center;
+  font-family: "Acme", sans-serif;
+  font-size: 17px;
+  margin-top: 0px;
+  color: white;
+} 
+
+main .border_shield p.blog01 {
+  margin-top: 10px;
+}
+
+main .border_shield p.blog02 {
+  margin-top: 10px;
+}
+
+main .border_shield {
+  display: inline-block;
+  background-image: url("../img/border shield.png");
+  background-repeat: no-repeat;
+  width: 285px;
+  height: 265px;
+  margin-top: 5px;
+  margin-left: 5px;
+
+  
+}
+main .weekly {
+  display: inline-block;
+  background-image: url("../img/WEEKLY SPECIAL.png");
+  background-repeat: no-repeat;
+  width: 205px;
+  height: 45px;
+  margin-top: 20px;
+  margin-left: 40px;
+
+  
+}
+
+main .slide {
+  background-image: url("../img/slider.png");
+  background-repeat: no-repeat;
+  width: 575px;
+  height: 275px;
+  margin-right: 195px;
+  margin-left: 40px;
+}
+
+main aside {
+  display: inline-block;
+  width: 295px;
+  height: 700px;
+  border: 1px solid red; 
+  position: relative;
+  top: 150px;
+  left: 805px;
+}
+
+main .Pizza_Bre {
+  display: inline-block;
+  background-image: url("../img/Outer Border.png");
+  background-repeat: no-repeat;
+  width: 275px;
+  height: 160px;
+  margin-left: 11px;
+}
+
+main .Bre_inner {
+  display: inline-block;
+  background-image: url("../img/Inner Border.png");
+  background-repeat: no-repeat;
+  width: 265px;
+  height: 150px;
+  margin-top: 6px;
+  margin-left: 5px;
+  
+}
+
+main .Bre_logo {
+  display: inline-block;
+  background-image: url("../img/Headline.png");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 45px;
+  margin-left: 32px;
+  margin-top: 10px;
+}
+ main .Bre_text01 {
+   text-align: center;
+   font-size: 17px;
+   font-family: "PatuaOne", sans-serif;
+   font-weight: bold;
+   margin-top: 0px;
+   color: #1c5f13;
+ }
+
+ main .Bre_text02 {
+  text-align: center;
+  font-size: 17px;
+  font-family: "PatuaOne", sans-serif;
+  margin-top: 0px;
+  color: #1c5f13;
 }
