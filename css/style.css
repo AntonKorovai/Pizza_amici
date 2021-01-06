@@ -11,7 +11,7 @@ html body {
 
 .root-inner {
   background-image: url('../img/Background_bottom.png');
-  min-height: 1800px;
+  min-height: 2400px;
   background-repeat: repeat-x;
   background-position: bottom;
   z-index: 1;
@@ -282,26 +282,26 @@ main .slide {
   margin-left: 40px;
 }
 
-main aside {
+aside {
   display: inline-block;
-  width: 295px;
-  height: 700px;
+  width: 310px;
+  height: 1300px;
   border: 1px solid red; 
   position: relative;
   top: 150px;
   left: 805px;
 }
 
-main .Pizza_Bre {
+aside .Pizza_Bre {
   display: inline-block;
   background-image: url("../img/Outer Border.png");
   background-repeat: no-repeat;
   width: 275px;
   height: 160px;
-  margin-left: 11px;
+  margin-left: 17px;
 }
 
-main .Bre_inner {
+aside .Bre_inner {
   display: inline-block;
   background-image: url("../img/Inner Border.png");
   background-repeat: no-repeat;
@@ -312,7 +312,7 @@ main .Bre_inner {
   
 }
 
-main .Bre_logo {
+aside .Bre_logo {
   display: inline-block;
   background-image: url("../img/Headline.png");
   background-repeat: no-repeat;
@@ -321,7 +321,7 @@ main .Bre_logo {
   margin-left: 32px;
   margin-top: 10px;
 }
- main .Bre_text01 {
+ aside .Bre_text01 {
    text-align: center;
    font-size: 17px;
    font-family: "PatuaOne", sans-serif;
@@ -330,10 +330,242 @@ main .Bre_logo {
    color: #1c5f13;
  }
 
- main .Bre_text02 {
+ aside .Bre_text02 {
   text-align: center;
   font-size: 17px;
   font-family: "PatuaOne", sans-serif;
   margin-top: 0px;
   color: #1c5f13;
 }
+
+aside .classics {
+  display: inline-block;
+  background-image: url("../img/Wooden Sign.png");
+  background-repeat: no-repeat;
+  width: 227px;
+  height: 138px;
+  position: relative;
+  top: -3px;
+  margin-left: 41px;
+}
+
+aside .classics p {
+  font-family: 'Acme', sans-serif;
+  font-size: 30px;
+  color: white;
+  margin-top: 90px;
+  text-align: center;
+}
+
+aside .Plank_bg01 {
+  display: inline-block;
+  background-image: url("../img/Plank Background1.png");
+  background-repeat: no-repeat;
+  width: 225px;
+  height: 150px;
+  margin-top: 25px;
+  margin-left: 42px;
+}
+
+aside .Plank_bg01 p {
+  color: black;
+  margin: 8px 0px 0px 0px;
+  font-family: 'Patua One', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  width: 220px;
+}
+
+aside .Plank_bg01 p.price{
+  color: red;
+  font-family: 'Patua One', sans-serif;
+  font-size: 18px;
+  margin: 5px 0px 0px 0px;
+}
+
+aside .Plank_bg01 h6 {
+  color: white;
+  margin: 0px 0px 0px 0px;
+  font-family: 'Patua One', sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+aside .Plank_bg01 h6.bolognese {
+  color: rgb(91, 67, 47);
+}
+
+aside .Plank_bg02 {
+  display: inline-block;
+  background-image: url("../img/Plank Background1.png");
+  background-repeat: no-repeat;
+  width: 225px;
+  height: 150px;
+  margin-top: 25px;
+  margin-left: 42px;
+}
+
+aside .Plank_bg02 p {
+  color: black;
+  margin: 8px 0px 0px 0px;
+  font-family: 'Patua One', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  width: 220px;
+}
+
+aside .Plank_bg02 p.price{
+  color: red;
+  font-family: 'Patua One', sans-serif;
+  font-size: 18px;
+  margin: 15px 0px 0px 0px;
+}
+
+aside .Plank_bg02 h6 {
+  color: white;
+  margin: 0px 0px 0px 0px;
+  font-family: 'Patua One', sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+aside .Plank_bg02 h6.fungi {
+  color: rgb(91, 67, 47);
+}
+
+aside .container_review p {
+  font-family: 'Acme', sans-serif;
+  font-size: 25px;
+  color: red;
+  text-align: center;
+  margin-top: 30px;
+}
+
+aside .review01 {
+  display: inline-block;
+  background-image: url("../img/Rectangle.png");
+  background-repeat: no-repeat;
+  width: 223px;
+  height: 140px;
+  margin-left: 43px;
+}
+
+aside .review_inner01 {
+  display: inline-block;
+  background-image: url("../img/Arrow.png");
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 25px;
+  position: relative;
+  top: 44px;
+  left: 35px;
+}
+
+aside .review01 .chef {
+  display: inline-block;
+  background-image: url("../img/chef.png");
+  background-repeat: no-repeat;
+  width: 51px;
+  height: 45px;
+  position: relative;
+  top: 85px;
+  left: -65px;
+}
+
+aside  .review01 .review_text {
+  font-size: 14px;
+  margin: 0px;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: -42px;
+  padding: 0px 8px;
+}
+
+aside .review02 {
+  display: inline-block;
+  background-image: url("../img/Rectangle.png");
+  background-repeat: no-repeat;
+  width: 223px;
+  height: 140px;
+  margin-left: 43px;
+}
+
+aside .review_inner02 {
+  display: inline-block;
+  background-image: url("../img/Arrow.png");
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 25px;
+  position: relative;
+  top: 44px;
+  left: 35px;
+}
+
+aside .review02 .chef {
+  display: inline-block;
+  background-image: url("../img/chef.png");
+  background-repeat: no-repeat;
+  width: 51px;
+  height: 45px;
+  position: relative;
+  top: 85px;
+  left: -65px;
+}
+
+aside  .review02 .review_text {
+  font-size: 14px;
+  margin: 0px;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: -42px;
+  padding: 0px 8px;
+}
+
+aside .review01 p.chef_name01{
+color: black;
+margin: 0px;
+font-size: 13px;
+position: relative;
+top: -14px;
+}
+
+aside .review02 p.chef_name02{
+color: black;
+margin: 0px;
+font-size: 13px;
+position: relative;
+top: -14px;
+}
+
+
+aside .container_review hr {
+  border:none;
+  border-top:2px dashed rgb(138, 186, 129);
+  color:#fff;
+  background-color:#fff;
+  width: 223px;
+  height:1px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+aside .container_review .deco_element {
+  display: inline-block;
+  background-image: url("../img/Deco Element.png");
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 230px;
+  margin-left: 75px;
+}
+
+/*aside .shadow01 {
+  background-image: url("../img/Shadow Divider Right.png");
+  background-repeat: no-repeat;
+  width: 7px;
+  height: 700px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}*/
