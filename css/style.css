@@ -19,7 +19,7 @@ html body {
 
 .contaiener {
   position: relative;
-  width: 1100px;
+  width: 950px;
   margin: 0 auto;
 }
 
@@ -43,14 +43,14 @@ header a.logo_brand {
   width: 365px;
   height: 55px;
   position: absolute;
-  left: 10px;
+  left: 23px;
   top: 73px;
 }
 
 header p.p1 {
   position: absolute;
   top: 144px;
-  left: 10px;
+  left: 23px;
   margin: 0;
   color: white;
   font-weight: bold;
@@ -60,7 +60,7 @@ header p.p1 {
 
 header ul.socials {
   position: absolute;
-  right: 10px;
+  right: 0px;
   bottom: 10px;
   display: flex;
   margin: 0;
@@ -122,6 +122,7 @@ header .main_menu nav ul {
   align-items: center;
   height: 64px;
   margin: 0;
+  margin-left: 15px;
   padding: 0;
 }
 
@@ -144,7 +145,7 @@ header .main_menu nav ul li a {
   color: white;
   border-radius: 5px;
   font-weight: bolder;
-  font-size: 25px;
+  font-size: 22px;
   text-shadow: 1.5px 2.6px 0px rgba(0, 0, 0, 0.12);
   font-family: 'Acme', sans-serif;
 }
@@ -157,7 +158,7 @@ header .main_menu nav ul li a:hover {
 header .main_menu .red_flag {
   position: absolute;
   top: -10px;
-  left: 700px;
+  left: 640px;
   width: 72px;
   height: 79px;
   background-image: url('../img/Flag.png');
@@ -184,7 +185,7 @@ header form {
 }
 
 header form input {
-  width: 120px;
+  width: 115px;
   height: 28px;
   margin-left: 5px;
   border: none;
@@ -195,6 +196,10 @@ header form input {
   font-weight: bold;
   font-size: 22px;
   color: white;
+}
+
+header form .input_login {
+  width: 72px;
 }
 
 header form input:hover {
@@ -217,7 +222,7 @@ header .ch {
 }
 
 main {
-  width: 1100px;
+  width: 950px;
   margin: 0 auto;
   
 }
@@ -233,6 +238,7 @@ main .shield {
   background-repeat: no-repeat;
   height: 275px;
   width: 295px;
+  margin-left: 53px;
 }
 main .border_shield p {
   text-align: center;
@@ -278,18 +284,28 @@ main .slide {
   background-repeat: no-repeat;
   width: 575px;
   height: 275px;
-  margin-right: 195px;
-  margin-left: 40px;
+ 
+  margin-left: 30px;
 }
+
+/*main .shadow_slide {
+  display: inline-block;
+  background-image: url("../img/Shadow 01.png");
+  background-repeat: no-repeat;
+  width: 670px;
+  height: 40px;
+  position: relative;
+  top: 5px;
+  left: 5px;  
+}*/
 
 aside {
   display: inline-block;
   width: 310px;
-  height: 1300px;
-  border: 1px solid red; 
-  position: relative;
-  top: 150px;
-  left: 805px;
+  height: 1300px; 
+  position: absolute;
+  top: 654px;
+  left: 895px;
 }
 
 aside .Pizza_Bre {
@@ -569,3 +585,259 @@ aside .container_review .deco_element {
   top: 5px;
   left: 5px;
 }*/
+
+/*.contaiener_main_aside {
+  display: flex;
+}*/
+
+main .block01 {
+  display: inline-block;
+  width: 620px;
+  height: 500px;
+
+  margin-top: 100px;
+  margin-left: 25px;
+}
+
+main .element_sign {
+  display: inline-block;
+  background-image: url("../img/Ribbon.png");
+  background-repeat: no-repeat;
+  width: 620px;
+  height: 66px;
+
+}
+
+main h2 {
+  text-align: center;
+  color: white;
+  font-family: 'Acme', sans-serif;
+  font-size: 30px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+
+main .element_sign_inner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height:66px ;
+}
+
+main .element_sign_inner h2 {
+  color: #1c5f13;
+  text-align: center;
+}
+
+main .element_sign_inner .decor_element01 {
+  background-image: url("../img/Ornament left.png");
+  background-repeat: no-repeat;
+  width: 54px;
+  height: 20px;
+  margin-top: 14px;
+  margin-left: 25px;
+  
+}
+
+main .element_sign_inner .decor_element02 {
+  background-image: url("../img/Ornament left.png");
+  background-repeat: no-repeat;
+  width: 54px;
+  height: 20px;
+  margin-top: 14px;
+  margin-right: 25px;
+  
+}
+
+main .main_block{
+  display:flex;
+  background-image: url("../img/Wooden Texture.png");
+  background-repeat: no-repeat;
+  width: 577px;
+  height: 500px;
+  margin-left: 21px;
+  margin-top: 30px;
+}
+
+main .main_block .element_pizza {
+ 
+  width: 158px;
+  height: 250px;
+
+  margin-left: 24px;
+}
+
+main h3.child_pizza {
+margin: 0;
+width: 100%;
+text-align: left;
+font-family: "PatuaOne", sans-serif;
+font-size: 17px;
+color: #1c5f13;
+font-weight: initial;
+margin: 5px;
+}
+
+main p.description_pizza {
+  margin: 0px;
+  margin-top: 5px;
+  font-size: 14px;
+  margin: 5px;
+}
+
+main p.price {
+  color: red;
+  font-size: 16px;
+  font-family: "PatuaOne", sans-serif;
+  margin: 5px;
+
+}
+
+main .element_pizza .pizza_frame {
+  background-image: url("../img/Frame.png");
+  background-repeat: no-repeat;
+  width: 158px;
+  height: 117px;
+  margin-top: 10px;
+}
+main .element_pizza .pizza_image {
+  display: inline-block;
+  background-image: url("../img/pizza.png");
+  background-repeat: no-repeat;
+  width: 144px;
+  height: 103px;
+  margin: 7px 0px 0px 7px;
+}
+
+main .container_element_pizza {
+  display: flex;
+}
+
+main .main_block .open_menu_button{
+  display: inline-block;
+  background-image: url("../img/Ribbon1.png");
+  background-repeat: no-repeat;
+  width: 125px;
+  height: 45px;
+  position: absolute;
+  top: 1086px;
+  left: 772px;
+}
+
+main .open_menu_button a {
+  text-decoration: none;
+  color: white;
+  margin-left: 18px;
+  font-size: 18px;
+  font-family: 'league-gothic', sans-serif;
+}
+
+main .container_head {
+  height: 60px;
+}
+
+main .block02{
+margin-top: -33px;
+}
+
+main .block02 .head {
+display: flex;
+background-image: url("../img/Title Bar.png");
+background-repeat: no-repeat;
+width: 580px;
+height: 65px;
+margin: 100px 0px 0px 44px;
+}
+
+main .block02 .head h3 {
+  font-weight: initial;
+  color: white;
+  font-family: 'Acme', sans-serif;
+  margin: 7px 0px 0px 15px;
+  font-size: 22px;
+}
+
+main .block02 .head h4 {
+  font-weight: initial;
+  color: white;
+  font-size: 12px;
+  font-family: 'Patua One', sans-serif;
+  margin: 12px 0px 0px 130px;
+}
+
+main .container_head .red_flag02 {
+  display: inline-block;
+  background-image: url("../img/Ribbon2.png");
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 67px;
+  position: relative;
+  top: -73px;
+  left: 540px;
+}
+
+main  .red_flag02 a {
+  font-family: 'league-gothic', sans-serif;
+  color: white;
+  margin: 15px;
+  font-size: 16px;
+
+}
+
+main  .red_flag02 p {
+  font-family: 'league-gothic', sans-serif;
+  color: white;
+  font-size: 22px;
+  margin: -3px 0px 0px 24px;
+  
+}
+
+main .block02 .top_img {
+  display: inline-block;
+  background-image: url("../img/pizza2.png");
+  background-repeat: no-repeat;
+  width: 579px;
+  height: 131px;
+  margin-left: 44px;
+}
+
+main .main_text p {
+  width: 579px;
+  margin-left: 44px;
+  margin-top: 8px;
+  text-align: justify;
+  font-family: sans-serif;
+}
+
+main .button_read_more {
+  width: 112px;
+  height: 35px;
+}
+
+main .button_read_more input {
+  width: 112px;
+  height: 35px;
+  background-color: rgb(251, 0, 6);
+  border: none;
+  cursor: pointer;
+  margin-left: 44px;
+  color: white;
+}
+
+main .button_read_more input:hover {
+  background-color: rgb(194, 15, 18);
+}
+
+main .block02 .hr_main {
+  border:none;
+  border-top:2px dashed rgb(138, 186, 129);
+  color:#fff;
+  background-color:#fff;
+  width: 70%;
+  height:1px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-right: 327px;
+  width: 579px;
+}
