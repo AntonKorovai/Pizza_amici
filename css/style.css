@@ -288,6 +288,83 @@ main .slide {
   margin-left: 30px;
 }
 
+main .slide .slide_button_left {
+  display: flex;
+  flex-direction: column;
+  width: 51px;
+  height: 69px;
+  position: relative;
+  top: 103px;
+  left: -24px;
+}
+
+
+
+main .slide .carousel_box_left {
+  display: inline-block;
+  background-image: url("../img/Carousel Box left.png");
+  background-repeat: no-repeat;
+  width: 51px;
+  height: 48px;
+}
+
+main .slide .carousel_arrow_left {
+  display: inline-block;
+  background-image: url("../img/Carousel Arrow left.png");
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 23px;
+  margin: 15px 0px 0px 16px;
+}
+
+
+
+main .slide .carousel_shadow_left {
+  display: inline-block;
+  background-image: url("../img/Shadow Carousel left.png");
+  background-repeat: no-repeat;
+  width: 27px;
+  height: 15px;
+  margin-left: 3px;
+}
+
+main .slide .slide_button_right {
+  display: flex;
+  flex-direction: column;
+  width: 51px;
+  height: 69px;
+  position: relative;
+  top: 34px;
+  left: 553px;
+}
+
+main .slide .carousel_box_right {
+  display: inline-block;
+  background-image: url("../img/Carousel Box right.png");
+  background-repeat: no-repeat;
+  width: 51px;
+  height: 48px;
+}
+
+main .slide .carousel_arrow_right{
+  display: inline-block;
+  background-image: url("../img/Carousel Arrow right.png");
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 23px;
+  margin: 15px 0px 0px 20px;
+}
+
+main .slide .carousel_shadow_right {
+  display: inline-block;
+  background-image: url("../img/Shadow Carousel right.png");
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 15px;
+  margin-left: 7px;
+  margin-top:6px
+}
+
 /*main .shadow_slide {
   display: inline-block;
   background-image: url("../img/Shadow 01.png");
@@ -728,9 +805,19 @@ main .main_block .open_menu_button{
 main .open_menu_button a {
   text-decoration: none;
   color: white;
-  margin-left: 18px;
+  margin-left: 15px;
   font-size: 18px;
+  border-top: 1px dashed white;
+  border-bottom: 1px dashed white;
   font-family: 'league-gothic', sans-serif;
+  margin-top: 2px;
+  width: 83px;
+  display: block;
+  text-align: center;
+}
+
+main .open_menu_button a:hover {
+  color: gainsboro;
 }
 
 main .container_head {
@@ -778,9 +865,10 @@ main .container_head .red_flag02 {
 }
 
 main  .red_flag02 a {
+  display: block;
   font-family: 'league-gothic', sans-serif;
   color: white;
-  margin: 15px;
+  margin: 6px 0px 0px 15px;
   font-size: 16px;
 
 }
