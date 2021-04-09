@@ -224,7 +224,6 @@ header .ch {
 main {
   width: 950px;
   margin: 0 auto;
-  
 }
 
 main .shield_slide {
@@ -264,9 +263,8 @@ main .border_shield {
   height: 265px;
   margin-top: 5px;
   margin-left: 5px;
-
-  
 }
+
 main .weekly {
   display: inline-block;
   background-image: url("../img/WEEKLY SPECIAL.png");
@@ -275,106 +273,108 @@ main .weekly {
   height: 45px;
   margin-top: 20px;
   margin-left: 40px;
-
-  
 }
 
-main .slide {
-  background-image: url("../img/slider.png");
-  background-repeat: no-repeat;
-  width: 575px;
-  height: 275px;
- 
+main .wrapper_slide {
   margin-left: 30px;
 }
 
-main .slide .slide_button_left {
-  display: flex;
-  flex-direction: column;
-  width: 51px;
-  height: 69px;
-  position: relative;
-  top: 103px;
-  left: -24px;
+.slider_frame {
+  background-image: url("../img/Nostalgic Frame.png");
+  position: absolute;
+  top: 279px;
+  z-index: 13;
+  width: 570px;
+  left: 276;
+  height: 275px;
 }
 
+main .slider {
+  overflow: hidden;
+  width: 568px;
+  height: 275px;
+  box-shadow: #0000008c 0px 9px 20px 1px;
+}
 
+main .slider_line {
+  display: flex;
+  width: 1650px;
+  height: 275px;
+  position: relative;
+  left: 0px;
+  transition: all ease 1s;
+}
+.buttons {
+  position: absolute;
+  top: 390px;
+  z-index: 14;
+}
 
-main .slide .carousel_box_left {
-  display: inline-block;
+.button {
+  width: 50px;
+  height: 52px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  padding: 0px;
+}
+
+.button_left {
   background-image: url("../img/Carousel Box left.png");
-  background-repeat: no-repeat;
-  width: 51px;
-  height: 48px;
-}
-
-main .slide .carousel_arrow_left {
-  display: inline-block;
-  background-image: url("../img/Carousel Arrow left.png");
-  background-repeat: no-repeat;
-  width: 14px;
-  height: 23px;
-  margin: 15px 0px 0px 16px;
-}
-
-
-
-main .slide .carousel_shadow_left {
-  display: inline-block;
-  background-image: url("../img/Shadow Carousel left.png");
-  background-repeat: no-repeat;
-  width: 27px;
-  height: 15px;
-  margin-left: 3px;
-}
-
-main .slide .slide_button_right {
-  display: flex;
-  flex-direction: column;
-  width: 51px;
-  height: 69px;
   position: relative;
-  top: 34px;
-  left: 553px;
+  right: 35px;
 }
 
-main .slide .carousel_box_right {
-  display: inline-block;
+.button_right {
   background-image: url("../img/Carousel Box right.png");
-  background-repeat: no-repeat;
-  width: 51px;
-  height: 48px;
-}
-
-main .slide .carousel_arrow_right{
-  display: inline-block;
-  background-image: url("../img/Carousel Arrow right.png");
-  background-repeat: no-repeat;
-  width: 14px;
-  height: 23px;
-  margin: 15px 0px 0px 20px;
-}
-
-main .slide .carousel_shadow_right {
-  display: inline-block;
-  background-image: url("../img/Shadow Carousel right.png");
-  background-repeat: no-repeat;
-  width: 40px;
-  height: 15px;
-  margin-left: 7px;
-  margin-top:6px
-}
-
-/*main .shadow_slide {
-  display: inline-block;
-  background-image: url("../img/Shadow 01.png");
-  background-repeat: no-repeat;
-  width: 670px;
-  height: 40px;
   position: relative;
-  top: 5px;
-  left: 5px;  
-}*/
+  left: 500px;
+}
+
+.button_decoration  {
+  display: flex;
+  position: absolute;
+  top: 438px;
+  left: 246px;
+  
+}
+
+.button_shadow_left {
+  background-image: url("../img/Shadow Carousel left.png");
+  width: 40px;
+  height: 13px;
+}
+
+.button_shadow_right {
+  background-image: url("../img/Shadow Carousel right.png");
+  width: 40px;
+  height: 13px;
+  margin-left: 550px ;
+}
+
+.shadow_under_aside {
+  position: absolute;
+  border-radius: 18px 18px;
+  width: 280px;
+  height: 1260px;
+  top: 685px;
+  left: 908px;
+  box-shadow: 0px 0px 20px 1px #888888;
+  z-index: 1;
+}
+
+.shadow_border_aside {
+  z-index: 3;
+  position: absolute;
+  width: 280px;
+  height: 1380px;
+  top: 600px;
+  left: 908px;
+  background-color: white;
+}
+
 
 aside {
   display: inline-block;
@@ -383,6 +383,7 @@ aside {
   position: absolute;
   top: 654px;
   left: 895px;
+  z-index: 3;
 }
 
 aside .Pizza_Bre {
@@ -653,27 +654,12 @@ aside .container_review .deco_element {
   margin-left: 75px;
 }
 
-/*aside .shadow01 {
-  background-image: url("../img/Shadow Divider Right.png");
-  background-repeat: no-repeat;
-  width: 7px;
-  height: 700px;
-  position: relative;
-  top: 5px;
-  left: 5px;
-}*/
-
-/*.contaiener_main_aside {
-  display: flex;
-}*/
-
 main .block01 {
   display: inline-block;
   width: 620px;
   height: 500px;
-
   margin-top: 100px;
-  margin-left: 25px;
+  margin-left: 10px;
 }
 
 main .element_sign {
@@ -732,9 +718,10 @@ main .main_block{
   background-image: url("../img/Wooden Texture.png");
   background-repeat: no-repeat;
   width: 577px;
-  height: 500px;
+  height: 327px;
   margin-left: 21px;
   margin-top: 30px;
+  box-shadow: #0000008c 0px 9px 20px 1px;
 }
 
 main .main_block .element_pizza {
@@ -777,10 +764,10 @@ main .element_pizza .pizza_frame {
   width: 158px;
   height: 117px;
   margin-top: 10px;
+  box-shadow: #0000008c 0px 7px 20px 1px;
 }
 main .element_pizza .pizza_image {
   display: inline-block;
-  background-image: url("../img/pizza.png");
   background-repeat: no-repeat;
   width: 144px;
   height: 103px;
@@ -799,7 +786,7 @@ main .main_block .open_menu_button{
   height: 45px;
   position: absolute;
   top: 1086px;
-  left: 772px;
+  left: 753px;
 }
 
 main .open_menu_button a {
@@ -826,6 +813,7 @@ main .container_head {
 
 main .block02{
 margin-top: -33px;
+margin-left: -15px;
 }
 
 main .block02 .head {
@@ -926,9 +914,14 @@ main .block02 .hr_main {
   height:1px;
   margin-top: 20px;
   margin-bottom: 25px;
-  margin-right: 327px;
+  margin-right: 342px;
   width: 579px;
 }
+
+main .block03{
+margin-left: -15px;
+}
+
 
 main .head_block03 {
   width: 577px;
@@ -994,17 +987,18 @@ main p.description_pizza_block03 {
 
 main .element_pizza_block03 .pizza_image_block03 {
   display: inline-block;
-  background-image: url("../img/pizza.png");
   background-repeat: no-repeat;
   width: 144px;
   height: 103px;
-  margin: 7px 0px 0px 7px;
+  margin: 7px 0px 0px 4px;
+  box-shadow: 0px 5px 20px 0px #0000007a;
 }
 
 footer {
   width: 941px;
   height: 400px;
   margin-left: 250px;
+  margin-top: 35px;
 }
 
 footer .footer_shield {

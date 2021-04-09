@@ -1,0 +1,108 @@
+.slider {
+    width: 550px;
+    height: 300px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.slider-line {
+    height: 300px;
+    width: 1650px;
+    display: flex;
+    position: relative;
+    left: 0px;
+    transition: all ease .8s;
+}
+
+.slider_button_container {
+    position: absolute;
+    left: 405px;
+    top: 170px;
+}
+
+.button {
+    width: 51px;
+    height: 48px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    padding: 0px;
+}
+
+.button_left {
+    background-image: url("img/Carousel Box left.png");
+    position: relative;
+}
+
+.button_right {
+    background-image: url("img/Carousel Box right.png");
+    position: relative;
+    left: 525px;
+}
+
+
+
+
+
+
+
+
+.layer1 {
+    background-color: black;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    z-index: 5;
+}
+
+.layer2 {
+    background-color: blue;
+    width: 200px;
+    height: 50px; 
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    z-index: 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*div.button_left {
+  display: inline-block;
+  background-image: url("img/Carousel Box left.png");
+  background-repeat: no-repeat;
+  position: relative;
+  left: 1px;
+  top: 1px;
+  width: 51px;
+  height: 69px;
+
+}
+
+div.button_right {
+    display: inline-block;
+    background-image: url("img/Carousel Box right.png");
+    background-repeat: no-repeat;
+    position: relative;
+    left: 538px;
+    top: 1px;
+    width: 51px;
+    height: 69px;
+}
